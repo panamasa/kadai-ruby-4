@@ -43,23 +43,23 @@
     
         <table class="mt-4 table border-bottom">
             <tr>
-                <th width="40%">会社名</th>
+                <th style="width:40%">会社名</th>
                 <td><%= params['company'] %></td>
             </tr>
             <tr>
-                <th width="40%">氏名</th>
+                <th style="width:40%">氏名</th>
                 <td><%= params['name'] %></td>
             </tr>
             <tr>
-                <th width="40%">メール</th>
+                <th style="width:40%">メール</th>
                 <td><%= params['mail'] %></td>
             </tr>
             <tr>
-                <th width="40%">電話番号</th>
+                <th style="width:40%">電話番号</th>
                 <td><%= params['tel'] %></td>
             </tr>
             <tr>
-                <th width="40%">内容</th>
+                <th style="width:40%">内容</th>
                 <td><%= params['content'].gsub(/\r\n|\r|\n/, "<br>") %></td>
             </tr>
         </table>
